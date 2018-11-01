@@ -1,0 +1,105 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  background-image: url('http://pic2.iranshao.com/photo/image/gwhyvb9fwl6gju942khfhf.png');
+  background-size: cover;
+}
+page {
+  height: 100%;
+}
+.img-no {
+  width: 292rpx;
+  height: 60rpx;
+}
+.img-day {
+  width: 110rpx;
+  height: 120rpx;
+  margin: 0 10rpx;
+  background-image: url('http://pic2.iranshao.com/photo/image/ta8zemv8nw8qaabzkjwn.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.counts {
+  display: flex;
+  margin: 40rpx auto;
+}
+.count {
+  display: inline-block;
+  text-align: center;
+  width: 64rpx;
+  font-size: 60rpx;
+  line-height: 130rpx;
+  letter-spacing: -1px;
+  padding-left: 10rpx;
+}
+.text {
+  display: inline-block;
+  font-size: 20rpx;
+}
+.img-main {
+  width: 651rpx;
+  height: 679rpx;
+}
+.desc {
+  padding: 40rpx;
+  line-height: 1.5;
+}
+.calendar-bar {
+  width: 500rpx;
+  background: #fd1313;
+  height: 100rpx;
+  line-height: 110rpx;
+  border-top-left-radius: 32rpx;
+  border-top-right-radius: 32rpx;
+  color: #fff;
+  display: flex;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  margin-top: 100rpx;
+}
+.calendar-main {
+  width: 500rpx;
+  height: 400rpx;
+  border-bottom-left-radius: 32rpx;
+  border-bottom-right-radius: 32rpx;
+  background: #fff;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+}
+.calendar-date {
+  flex: 1;
+  text-align: center;
+}
+.calendar-main-day {
+  font-size: 180rpx;
+  font-weight: bold;
+  flex: 1;
+  margin-top: 80rpx;
+}
+.calendar-main-text {
+  width: 160rpx;
+}
+.share {
+  background-color: #fd1313;
+  color: #fff;
+  display: flex;
+  width: 90rpx;
+  height: 100rpx;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+button::after {
+  border-color: transparent;
+}
+.share-img {
+  width: 42rpx;
+  height: 39rpx;
+  align-self: center;
+  margin: 0;
+}
+.ad {
+  position: fixed;
+  bottom: 0;
+}

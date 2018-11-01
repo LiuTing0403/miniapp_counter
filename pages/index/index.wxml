@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<image class="img-no" src="../../images/no.jpg" background-size="contain"></image>
+  <view class="counts">
+    <view class="img-day">
+      <text class="count">{{day}}</text>
+      <text class="text">天</text>
+    </view>
+    <view class="img-day">
+      <text class="count">{{hour}}</text>
+      <text class="text">时</text>
+    </view>
+    <view class="img-day">
+      <text class="count">{{min}}</text>
+      <text class="text">分</text>
+    </view>
+    <view class="img-day">
+      <text class="count">{{second}}</text>
+      <text class="text">秒</text>
+    </view>
+  </view>
+  <image src="../../images/main.jpg" class="img-main"></image>
+  <text class="desc">{{text}}</text>-->
+  <view class="calendar-bar">
+    <text class="calendar-weekday">星期{{weekDay}}</text>
+    <text class="calendar-date">{{today}}</text>
+    <button class="share" open-type="share">
+      <image src="../../images/share.png" class="share-img"></image>
+    </button>
+  </view>
+  <view class="calendar-main">
+    <text class="calendar-main-text">剩</text>
+    <text class="calendar-main-day">{{day}}</text>
+    <text class="calendar-main-text">天</text>
+  </view>
+  <ad class='ad' unit-id="adunit-dc3c4653b244dc2f"></ad>
+  <!-- <navigator target='miniProgram' open-type='navigate' app-id='wxe806d242348d2400' path='/pages/index/index' extra-data="" version="release">打开绑定的小程序</navigator> -->
+</view>
