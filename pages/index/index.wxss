@@ -103,3 +103,9 @@ button::after {
   position: fixed;
   bottom: 0;
 }
+
+.navigator-button {
+  position: fixed;
+  bottom: 300rpx;
+}
+

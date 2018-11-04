@@ -34,5 +34,5 @@
     <text class="calendar-main-text">天</text>
   </view>
   <ad class='ad' unit-id="adunit-dc3c4653b244dc2f"></ad>
-  <!-- <navigator target='miniProgram' open-type='navigate' app-id='wxe806d242348d2400' path='/pages/index/index' extra-data="" version="release">打开绑定的小程序</navigator> -->
+  <navigator target="miniProgram" open-type="navigate" app-id="wxb84fef5ba7f18d22" class='navigator-button' path="" extra-data="" version="release"><button>点此查询沪牌拍牌时间</button></navigator>
 </view>
